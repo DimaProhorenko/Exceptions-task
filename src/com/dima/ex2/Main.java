@@ -14,7 +14,7 @@ public class Main {
     }
 
     private static void start() {
-        double[] data = generateRandomValArr(getNumOfDays());
+        double[] data = getData();
         int dayIndex = getDayUserInput(data.length);
         try {
             double price = data[dayIndex];
